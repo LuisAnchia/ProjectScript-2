@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyect 2</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
+	<h1>To-Do List</h1>
+	<input type="text" id="taskInput" placeholder="Enter task here">
+	<button id="addButton">Add Task</button>
+	<button id="deleteAllButton">Delete All</button>
+    <select id="filterDropdown">
+		<option value="job">Job</option>
+		<option value="homework">homework</option>
+		<option value="hobby">hobby</option>
+	</select>
+	<ul id="taskList">
 
-      <div class="container">
-        <h1>App To Do</h1>
-        <div class="form-container">
-            <input type="text" placeholder="add task">
-            <select>
-                <option value="">Select a category</option>
-                <option value="trabajo">Work</option>
-                <option value="personal">Personal</option>
-                <option value="estudio">Study</option>
-            </select>
-            <button>Add task</button>
-            <button>Delete all completed tasks</button>
-        </div>
-        <div class="task-list">
-            <ul>
-            </ul>
-        </div>
-    </div>
+    </ul>
+</body>
 
-  <script src="main..js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
